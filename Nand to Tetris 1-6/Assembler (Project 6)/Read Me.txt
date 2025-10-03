@@ -1,0 +1,11 @@
+Assembler takes in '.asm' assembly file as command line argument and returns '.hack' file containing binaries
+
+Running program example:
+
+	*python interpreter must be installed on pc*
+
+	Place 'simple_assembler.py' and '.asm' file in same directory
+	Navigate to that directory via the command prompt
+	enter: Python simple_assembler.py my_file_name.asm
+	'.hack' file is created with same name as input file and '.hack' extension
+	If file already existed, program will prompt you to overwrite or select a new name

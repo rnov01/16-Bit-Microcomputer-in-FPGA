@@ -1,0 +1,22 @@
+# system info pll on 2024.06.15.19:54:49
+system_info:
+name,value
+DEVICE,5CSXFC6D6F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1718499274
+#
+#
+# Files generated for pll on 2024.06.15.19:54:49
+files:
+filepath,kind,attributes,module,is_top
+simulation/pll.vhd,VHDL,,pll,true
+simulation/submodules/pll_video_pll_0.vhd,VHDL,,pll_video_pll_0,false
+simulation/submodules/pll_video_pll_0_video_pll.vho,VHDL,,pll_video_pll_0_video_pll,false
+simulation/submodules/altera_up_avalon_reset_from_locked_signal.v,VERILOG,,altera_up_avalon_reset_from_locked_signal,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+pll.video_pll_0,pll_video_pll_0
+pll.video_pll_0.video_pll,pll_video_pll_0_video_pll
+pll.video_pll_0.reset_from_locked,altera_up_avalon_reset_from_locked_signal
