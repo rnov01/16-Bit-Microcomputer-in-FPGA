@@ -1,0 +1,17 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\rnove\Documents\QuartusLabs\VGA_test\pll.qsys --synthesis=VHDL --output-directory=C:\Users\rnove\Documents\QuartusLabs\VGA_test\pll\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading VGA_test/pll.qsys
+Progress: Reading input file
+Progress: Adding video_pll_0 [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module video_pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pll: Generating pll "pll" for QUARTUS_SYNTH
+Info: video_pll_0: "pll" instantiated altera_up_avalon_video_pll "video_pll_0"
+Info: video_pll: "video_pll_0" instantiated altera_pll "video_pll"
+Info: reset_from_locked: "video_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: pll: Done "pll" with 4 modules, 5 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
